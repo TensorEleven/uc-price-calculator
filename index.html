@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Uc price calculator</title>
+        <link rel="stylesheet" href="assets/styles/style.css">
+        
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="price-container">
+                <form action="">
+                    <label for="gbp">GPB :</label>
+                    <input type="text" name="gbp" placeholder="1" class="currency">
+                    
+                    <label for="ariary">ARIARY :</label>
+                    <input type="text" name="ariary" placeholder="5258.16" class="currency">
+                
+                    <br>
+    
+                    <label for="basePriceGbp">Base Price GBP :</label>
+                    <input type="text" name="basePriceGbp" id='basePriceGbp'>
+    
+                    <br>
+                   
+                    <br><br>
+                    
+                    <label for="basePriceAriary">Base price Ariary :</label>
+                    <input type="text" name="basePriceAriary" id="basePriceAriary">
+                    
+                    <br>
+    
+                    <label for="priceAriary">Price Ariary :</label>
+                    <input type="text" name="priceAriary" id="priceAriary">
+    
+                </form>
+                <button type="submit"  id="calculateSubmit">Calculate</button>
+            </div>
+        </div>
+
+        <script src="price.js"></script>
+    </body>
+</html>
